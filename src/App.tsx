@@ -3,7 +3,6 @@ import NavBar from "./components/navbar";
 import Hero from "./components/hero";
 import Carousel from "./components/carousel";
 import LeftImageRightList from "./components/left-image-right-list";
-import gsap from "gsap";
 import Accordion from "./components/accordion";
 import RightImageLeftList from "./components/right-image-left-list";
 import TitleAndText from "./components/title-and-text";

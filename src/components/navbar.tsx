@@ -5,7 +5,7 @@ import { useEffect } from "react";
 const NavBar: React.FC = () => {
   const [isOpen, setOpen] = useState(false);
   const [isBlur, setBlur] = useState(false);
-  const [windowWidth, setWidth] = useState(window.innerWidth);
+  const [windowWidth] = useState(window.innerWidth);
 
   const toggleMenu = () => {
     setOpen(!isOpen);
@@ -58,9 +58,7 @@ const NavBar: React.FC = () => {
         </div>
 
         {/* Nav full screen */}
-        <div
-          className={`w-full md:flex md:items-center md:w-auto md:block hidden`}
-        >
+        <div className={`w-full md:flex md:items-center md:w-auto hidden`}>
           <ul className="flex space-x-10 items-center text-center">
             <li>
               <Link
