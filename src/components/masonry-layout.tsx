@@ -15,7 +15,7 @@ const cards = [
   {
     title: "Penyebab Obat Rusak",
     points: ["Udara yang lembab", "Sinar matahari", "Suhu", "Goncangan fisik"],
-    imgPath: "src/assets/obat-sinar.jpg",
+    imgPath: "assets/obat-sinar.jpg",
   },
   {
     title: "Pertimbangan penyimpanan obat",
@@ -24,7 +24,7 @@ const cards = [
       "Mudah atau tidaknya meledak/terbakar",
       "Stabilitas, narkotika dan psikotropika disimpan dalam lemari khusus.",
     ],
-    imgPath: "src/assets/jenis-obat.jpg",
+    imgPath: "assets/jenis-obat.jpg",
   },
   {
     title: "Tujuan penyimpanan obat",
@@ -34,7 +34,7 @@ const cards = [
       "Menjaga kelangsungan persediaan.",
       "Memudahkan pencarian dan pengawasan.",
     ],
-    imgPath: "src/assets/simpan-obat.jpg",
+    imgPath: "assets/simpan-obat.jpg",
   },
   {
     title: "Dampak Penyimpanan Obat yang Salah",
@@ -45,7 +45,7 @@ const cards = [
       "Tidak terjaganya ketersediaan.",
       "Mempersulit pengawasan",
     ],
-    imgPath: "src/assets/obat-expired.jpg",
+    imgPath: "assets/obat-expired.jpg",
   },
 ];
 

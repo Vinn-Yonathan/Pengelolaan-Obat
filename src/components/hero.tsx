@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         </p>
       </div>
       <img
-        src="src\assets\hero-image.svg"
+        src="assets\hero-image.svg"
         alt="hero-image"
         className="w-full h-auto object-cover max-w-96 hidden lg:block lg:mr-5"
       />

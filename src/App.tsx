@@ -126,7 +126,7 @@ function App() {
               "Label pada kemasan tidak lengkap, ada yang hilang atau tidak terbaca",
               "Berubah warna, bau, dan rasa",
             ]}
-            imagePath={"src/assets/obat-rusak.jpg"}
+            imagePath={"assets/obat-rusak.jpg"}
           />
         </section>
 
@@ -141,7 +141,7 @@ function App() {
               "Hilangkan seluruh informasi pribadi dari kemasan obat yang sudah kosong untuk melindungi identitas dan data probadi, seperti nama dan taggal lahir pasien",
               "Untuk menghindari penyalahgunaan bekas wadah obat hendaknya dibuang dengan cara dirusak (botol), digunting (pot plastik, boks, dus atau tube), atau dipecah (botol kaca) lalu kemudian dibuang di tempat sampah.",
             ]}
-            imagePath={"src/assets/buang-obat.jpg"}
+            imagePath={"assets/buang-obat.jpg"}
           />
         </section>
 
@@ -178,7 +178,7 @@ function App() {
               "Perhatikan tanda-tanda kerusakan obat dalam penyimpanan, seperti perubahan warna, bau, penggumpalan.",
               "Periksa secara rutin tanggal kadaluarsa dan kondisi obat.",
             ]}
-            imagePath="src/assets/rumah.jpg"
+            imagePath="assets/rumah.jpg"
           />
         </section>
 
@@ -203,7 +203,7 @@ function App() {
           <Card
             title="Catatan:"
             text="Tanggal kadaluwarsa biasanya tertera di kemasan obat, umumnya tertulis dengan tulisan: “EXP”; “Exp. Date”; “Best Before”; “Baik digunakan sebelum”. Contoh: Jika tertulis “20/06/2020” artinya setelah tanggal 20 Juni 2020 obat sudah tidak boleh digunakan. Jika tertulis “Mei 2014”, maka obat masih dapat digunakan sampai tanggal 31 Mei 2014, setelah tanggal tersebut sudah tidak boleh digunakan."
-            imgPath="src/assets/expired-date.jpg"
+            imgPath="assets/expired-date.jpg"
           />
         </section>
 

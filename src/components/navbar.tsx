@@ -44,7 +44,7 @@ const NavBar: React.FC = () => {
       <div className="container flex space-x-8 items-center md:justify-center justify-between mx-auto">
         <div className="font-bold bg-gradient-to-br bg-clip-text from-red-500 via-orange-400 to-amber-300 text-transparent">
           <img
-            src="src/assets/Logo Ma Chung.png"
+            src="assets/Logo Ma Chung.png"
             alt="logo Ma Chung"
             className="max-w-12 mr-8"
           />
@@ -53,7 +53,7 @@ const NavBar: React.FC = () => {
         {/* Hamburger Menu */}
         <div className="sm:hidden">
           <button onClick={toggleMenu}>
-            <img src="src\assets\icons\hamburger.svg" alt="Menu Icon" />
+            <img src="assets\icons\hamburger.svg" alt="Menu Icon" />
           </button>
         </div>
 
@@ -66,7 +66,7 @@ const NavBar: React.FC = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className="text-black font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
+                className="text-black cursor-pointer font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
               >
                 Home
               </Link>
@@ -78,7 +78,7 @@ const NavBar: React.FC = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className="text-black font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
+                className="text-black cursor-pointer font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
               >
                 Tanda Obat Rusak
               </Link>
@@ -90,7 +90,7 @@ const NavBar: React.FC = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className="text-black font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
+                className="text-black cursor-pointer font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
               >
                 Pembuangan Kemasan
               </Link>
@@ -102,7 +102,7 @@ const NavBar: React.FC = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className="text-black font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
+                className="text-black cursor-pointer font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
               >
                 Pemusnahan Obat
               </Link>
@@ -114,7 +114,7 @@ const NavBar: React.FC = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className="text-black font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
+                className="text-black cursor-pointer font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
               >
                 Penyimpanan Obat
               </Link>
@@ -126,7 +126,7 @@ const NavBar: React.FC = () => {
                 smooth={true}
                 offset={-100}
                 duration={500}
-                className="text-black font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
+                className="text-black cursor-pointer font-bold hover:bg-gradient-to-br hover:bg-clip-text hover:from-red-500 hover:via-orange-400 hover:to-amber-300 hover:text-transparent hover:font-extrabold hover:duration-300 text-sm"
               >
                 Batas Penggunaan Obat
               </Link>
@@ -144,7 +144,7 @@ const NavBar: React.FC = () => {
       >
         <div className="flex justify-end p-4">
           <button onClick={toggleMenu}>
-            <img src="src/assets/icons/close.svg" alt="close" />
+            <img src="assets/icons/close.svg" alt="close" />
           </button>
         </div>
 

@@ -14,7 +14,7 @@ const Carousel: React.FC = () => {
         "Taruh campuran dalam wadah yang bisa ditutup (plastik yang bisa ditutup Kembali, kaleng kosong, atau wadah lain) untuk menjaga agar obat tidak bocor atau tumpah",
         "Buang wadah ke tempat sampah",
       ],
-      bgImage: "src/assets/page1.jpg",
+      bgImage: "assets/page1.jpg",
     },
     {
       id: 1,
@@ -26,7 +26,7 @@ const Carousel: React.FC = () => {
         "Tutup plastik dengan rapat",
         "Buang plastik ke tempat sampah",
       ],
-      bgImage: "src/assets/page2.jpg",
+      bgImage: "assets/page2.jpg",
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const Carousel: React.FC = () => {
         "Hilangkan seluruh informasi pribadi dari kemasan obat yang sudah kosong untuk melindungi identitas dan data probadi, seperti nama dan taggal lahir pasien",
         "Untuk menghindari penyalahgunaan bekas wadah obat hendaknya dibuang dengan cara dirusak (botol), digunting (pot plastik, boks, dus atau tube), atau dipecah (botol kaca) lalu kemudian dibuang di tempat sampah.",
       ],
-      bgImage: "src/assets/page3.jpg",
+      bgImage: "assets/page3.jpg",
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ const Carousel: React.FC = () => {
         "Antibiotik yang dibuang langsung ke saluran pembuangan air atau ditimbun ditanah akan membuat lingkungan terpapar oleh antibiotik, sehingga mencemari air minum dan tanaman yang tumbuh. Jika air minum dan makanan yang mengandung antibiotika dikonsumsi, maka dapat terjadi resistensi antibiotika.",
         "Cara membuang obat antibiotika: mengikuti cara pembuangan obat dirumah tangga.",
       ],
-      bgImage: "src/assets/page4.jpg",
+      bgImage: "assets/page4.jpg",
     },
     {
       id: 4,
@@ -55,7 +55,7 @@ const Carousel: React.FC = () => {
         "Jika belum kosong namun sudah tidak diperlukan, dapat dikembalikan ke rumah sakit/dokter/puskesmas/klinik agar bisa dibuang dengan aman.",
         "Yang perlu diperhatikan: Pastikan wadah/botol sudah kosong. Jangan dilubangi, digepengkan atau dibakar karena dapat meledak",
       ],
-      bgImage: "src/assets/page5.jpg",
+      bgImage: "assets/page5.jpg",
     },
     {
       id: 5,
@@ -65,7 +65,7 @@ const Carousel: React.FC = () => {
         "Sisa obat,sisa kemasan,serta sarung tangan dan wadah yang bersentuhan dengan obat kanker tersebut dikumpulkan dalam wadah tertutup rapat.",
         "Kembalikan ke rumah sakit tempat mendapatkan obat.",
       ],
-      bgImage: "src/assets/page6.jpg",
+      bgImage: "assets/page6.jpg",
     },
     {
       id: 6,
@@ -75,7 +75,7 @@ const Carousel: React.FC = () => {
         "Serahkan wadah tersebut kepada institusi Kesehatan terdekat yang dapat menerima limbah kesehatan, misalnya rumah sakit, puskesmas, atau klinik.",
         "Hal yang perlu diperhatikan bila tertusuk jarum atau terkena benda tajam lain bekas digunakan oleh orang lain, segera cuci bagian yang tertusuk dengan air atau sabun atau antiseptic (alcohol atau pembersih tangan antiseptik). Hubungi dokter atau puskesmas/ klinik/rumah sakit terdekat.",
       ],
-      bgImage: "src/assets/page7.jpg",
+      bgImage: "assets/page7.jpg",
     },
   ];
 
