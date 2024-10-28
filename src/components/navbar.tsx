@@ -19,8 +19,6 @@ const NavBar: React.FC = () => {
     }
   };
 
-  console.log(window.innerWidth);
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
@@ -34,7 +32,7 @@ const NavBar: React.FC = () => {
       className={`p-6 fixed top-0 w-screen left-0 text-sm z-10 transition duration-200 ${
         isBlur
           ? `${
-              windowWidth > 748 && isOpen
+              windowWidth < 748 && isOpen
                 ? `bg-transparent`
                 : `backdrop-blur-lg bg-opacity-20 bg-white`
             }`

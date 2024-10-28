@@ -29,12 +29,9 @@ const AccordionItem: React.FC<AccordionItemProps> = ({
           {title}
         </span>
         {isOpen ? (
-          <img src="src/assets/icons/keyboard-arrow-up.svg" alt="arrow-up" />
+          <img src="assets/icons/keyboard-arrow-up.svg" alt="arrow-up" />
         ) : (
-          <img
-            src="src/assets/icons/keyboard-arrow-down.svg"
-            alt="arrow-down"
-          />
+          <img src="assets/icons/keyboard-arrow-down.svg" alt="arrow-down" />
         )}
       </button>
       <div

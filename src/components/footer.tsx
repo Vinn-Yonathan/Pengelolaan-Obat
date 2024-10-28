@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Footer: React.FC = () => {
   return (
     <div className="px-6 pt-6 w-screen bg-gradient-to-br from-amber-100 via-amber-300 to-red-400">
-      <div className="flex flex-wrap item-center justify-around ">
+      <div className="flex flex-wrap item-center md:justify-around">
         <div>
           <h5 className="font-bold text-black">Our Team</h5>
           <ul className="text-black">
@@ -16,9 +16,9 @@ const Footer: React.FC = () => {
             <li>Cevin Albert Yonathan</li>
           </ul>
         </div>
-        <div>
-          <h5 className="font-bold text-end text-black">Our Content</h5>
-          <ul className="flex flex-col items-end">
+        <div className="pt-10 md:pt-0">
+          <h5 className="font-bold md:text-end text-black">Our Content</h5>
+          <ul className="flex flex-col md:items-end">
             <li>
               <Link
                 to="hero"
