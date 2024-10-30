@@ -49,7 +49,7 @@ const NavBar: React.FC = () => {
         </div>
 
         {/* Hamburger Menu */}
-        <div className="sm:hidden">
+        <div className="md:hidden">
           <button onClick={toggleMenu}>
             <img src="assets\icons\hamburger.svg" alt="Menu Icon" />
           </button>
