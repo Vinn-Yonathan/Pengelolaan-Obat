@@ -47,7 +47,7 @@ const BackgroundTextSection: React.FC<BackgroundTextSectionProps> = ({
       <div className="bg-black bg-opacity-50 absolute inset-0 z-1"></div>
       <p
         ref={textRefs}
-        className="text-white px-56 xl:px-18 lg:px-16 md:px-14 sm:px-12 px-8 text-center xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs z-10"
+        className="text-white px-56 xl:px-18 lg:px-16 md:px-14 sm:px-12 text-center xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs z-10"
       >
         {text}
       </p>

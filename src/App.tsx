@@ -9,6 +9,7 @@ import TitleAndText from "./components/title-and-text";
 import MasonryLayout from "./components/masonry-layout";
 import Card from "./components/card";
 import Footer from "./components/footer";
+import Reference from "./components/reference";
 
 const accordionItemsKerusakan = [
   {
@@ -209,6 +210,10 @@ function App() {
 
         <section className="pb-16">
           <Accordion items={accordionItemsBUD} />
+        </section>
+
+        <section className="pb-20">
+          <Reference />
         </section>
       </main>
 
