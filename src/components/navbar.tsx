@@ -32,7 +32,7 @@ const NavBar: React.FC = () => {
       className={`p-6 fixed top-0 w-screen left-0 text-sm z-10 transition duration-200 ${
         isBlur
           ? `${
-              windowWidth < 748 && isOpen
+              windowWidth < 768 && isOpen
                 ? `bg-transparent`
                 : `backdrop-blur-lg bg-opacity-20 bg-white`
             }`
@@ -138,7 +138,7 @@ const NavBar: React.FC = () => {
           isOpen
             ? "translate-x-0 bg-amber-200 bg-opacity-90"
             : "translate-x-full"
-        } transition-transform duration-300 ease-in-out sm:hidden`}
+        } transition-transform duration-300 ease-in-out md:hidden`}
       >
         <div className="flex justify-end p-4">
           <button onClick={toggleMenu}>
