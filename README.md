@@ -54,3 +54,11 @@ export default tseslint.config({
 ## Icons
 
 The icons used in this website are from [Material Symbols & Icons](https://fonts.google.com/icons) by Google Fonts, licensed by [Apache License 2.0](LICENSE_ICONS.txt) - Name of the icon files is modified in [Icons Folder](src\assets\icons).
+
+## Contents Reference
+
+The contents of this website are referenced from
+
+- https://standarobat.pom.go.id/site/product/book/detail/pedoman-mengenal-obat-kedaluwarsa-danatau-rusak-di-rumah-tangga-dan-cara-penanganannya-1
+- Kementerian Kesehatan RI. 2021. Cara menyimpan Obat. Jakarta : Direktorat Jenderal Kefarmasian dan Alat Kesehatan Kemenkes RI.
+- Kementerian Kesehatan RI. 2020. Gerakan Masyarakat Cerdas Menggunakan Obat (GeMa CerMat). Jakarta : Direktorat Jenderal Kefarmasian dan Alat Kesehatan Kemenkes RI.
