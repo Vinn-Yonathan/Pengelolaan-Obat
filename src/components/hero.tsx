@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
         <h1 className="bg-gradient-to-br bg-clip-text from-red-500 via-orange-300 to-amber-200 text-transparent uppercase font-bold text-[2.1rem] sm:text-5xl text-center lg:text-start break-words">
           Batas Penggunaan Obat dan Pemusnahan Obat Rusak
         </h1>
-        <p className="text-slate-600 2xl:text-xl xl:text-lg text-base mt-4 xl:pr-60 lg:pr-32 text-center md:text-start">
+        <p className="text-slate-600 2xl:text-xl xl:text-lg text-base mt-4 xl:pr-60 lg:pr-32 text-center lg:text-start">
           <strong className="bg-gradient-to-br bg-clip-text from-red-500 via-orange-400 to-amber-300 text-transparent">
             Obat rusak
           </strong>{" "}
